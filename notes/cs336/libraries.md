@@ -1,4 +1,4 @@
-Libraries Used and why
+# Libraries Used and Why
 
 - **torch** - Open-source deep learning framework for building and training neural networks
 - **numpy** - Fundamental package for numerical computing with support for large, multi-dimensional arrays and matrices
