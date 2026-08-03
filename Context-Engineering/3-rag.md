@@ -1,6 +1,4 @@
-# LLM Context Engineering and RAG From Scratch
-
-Source: https://www.youtube.com/watch?v=zvWIfROm-uE
+https://www.youtube.com/watch?v=zvWIfROm-uE & https://docs.langchain.com/oss/python/deepagents/retrieval
 
 ## 1. Context Operations: WSCI
 
