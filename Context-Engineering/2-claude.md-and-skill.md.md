@@ -43,8 +43,9 @@ A structured configuration file (such as `CLAUDE.md` or `AGENTS.md`) is built ar
 ### 3. Compute, Memory, & Context Selection
 
 - **Context Budget Constraints**:
-    - Entire system configuration files should remain constrained (~200 to 500 lines) to avoid context rot and excessive API usage costs.
-    - Large configuration files risk losing critical instructions in the middle of long contexts.
+    - Keep `CLAUDE.md` under ~200 lines (loads into every request, each line costs tokens).
+    - Keep the `SKILL.md` body under ~500 lines (loads only when invoked; split longer content into separate files one level deep).
+    - Respecting these limits avoids context rot and excessive API usage costs.
 
 - **Selective Context Loading (Dynamic vs. Static)**:
     - System prompts do not need to inject the complete configuration into every API call.
@@ -65,7 +66,7 @@ A structured configuration file (such as `CLAUDE.md` or `AGENTS.md`) is built ar
 ### 5. Multi-Agent Hierarchy & Standards
 
 - **Universal Standards (`AGENTS.md` & `SKILL.md`)**:
-    - While `CLAUDE.md` is standard in Claude Code, `AGENTS.md` serves as an emerging cross-platform standard supported by open-science ecosystems.
+    - While `CLAUDE.md` is standard in Claude Code, `AGENTS.md` is a cross-platform standard (formalized by OpenAI) honored across multiple tools and open ecosystems.
     - **Hierarchical Overrides**: Nested configuration files in subdirectories inherit from parent/root configurations, but local subdirectory rules override global root rules in cases of direct conflict.
         
 - **Few-Shot Examples Strategy**:
