@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e61e514d29a5bbaf",
+        "id": "0a1b4e19a3f286e3",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c21d98db394abc",
+            "id": "3e78108752ca9f37",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -183,9 +183,9 @@
   },
   "active": "d413a6fd91824e34",
   "lastOpenFiles": [
+    "CS336/1-overview.md",
     "Context-Engineering/3-rag.md",
     "Context-Engineering/2-claude.md-and-skill.md.md",
-    "CS336/1-overview.md",
     "Context-Engineering/1-introduction.md",
     "Context-Engineering",
     "README.md"
