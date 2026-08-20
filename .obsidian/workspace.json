@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0a1b4e19a3f286e3",
+        "id": "040accf0968a24df",
         "type": "tabs",
         "children": [
           {
-            "id": "3e78108752ca9f37",
+            "id": "ea5c323c8b91704b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,7 +181,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "d413a6fd91824e34",
+  "active": "ea5c323c8b91704b",
   "lastOpenFiles": [
     "CS336/1-overview.md",
     "Context-Engineering/3-rag.md",
