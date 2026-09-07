@@ -1,0 +1,17 @@
+# Core Unsloth & PyTorch dependencies
+unsloth>=2024.8
+torch>=2.4.0
+transformers>=4.45.0
+accelerate>=0.34.0
+bitsandbytes>=0.43.0
+triton>=3.0.0
+safetensors>=0.4.3
+datasets>=2.20.0
+
+# GGUF export (built into Unsloth via llama.cpp python bindings / binary)
+gguf>=0.10.0
+
+# External quantization engines for downstream deployment
+autoawq>=0.2.6; platform_system != "Darwin"
+auto-gptq>=0.7.1; platform_system != "Darwin"
+torchao>=0.5.0; platform_system != "Darwin"
