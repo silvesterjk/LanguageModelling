@@ -1,4 +1,4 @@
-# Large Language Models
+# Language Modelling
 
 A hands-on learning repository for understanding how large language models are
 built, trained, evaluated, quantized, and eventually served. It currently
