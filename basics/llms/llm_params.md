@@ -7,7 +7,7 @@ GPT-3 (175B) follows the autoregressive, decoder-only Transformer architecture i
 - **Number of Layers (`L`)**: 96 transformer decoder blocks.
 - **Hidden / Model Dimension (`d_model`)**: 12,288.
 - **Number of Attention Heads (`n_heads`)**: 96.
-- **Dimension pe
+- **Dimension per Head (`d_head`)**:
   `d_head = d_model / n_heads = 12,288 / 96 = 128`
 - **Feed-Forward Inner Dimension (`d_ff`)**: Standard 4× expansion:
   `d_ff = 4 × d_model = 4 × 12,288 = 49,152`
