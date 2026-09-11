@@ -41,7 +41,7 @@ Every one of the 96 decoder blocks consists of three primary components:
 3. Pre-Layer Normalization (Pre-LN)
 
 ```
-Input x
+Input `x`
   │
   ├────────────────────────┐ (Residual Connection)
   ▼                        │
