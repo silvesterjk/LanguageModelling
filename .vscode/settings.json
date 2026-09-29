@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+    "/Users/silvester/Library/Python/3.10/lib/python/site-packages"
+  ]
+}
